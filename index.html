@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tape calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="controls">
+        <div class="expression-container">
+            <h2 class="expression" id="expression">? + ? = ?</h2>
+            <input id="lastNumber" style="display: none;" type="text" class="floating-input"/>
+        </div>
+    </div>
+    <div class="canvas-container">
+        <canvas id="canvas" class="canvas">Your browser don't support HTML5 canvas. Please, update!</canvas>
+        <input id="firstNumber" style="display: none;" type="text" class="floating-input"/>
+        <input id="secondNumber" style="display: none;" type="text" class="floating-input"/>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
